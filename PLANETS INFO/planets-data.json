@@ -1,0 +1,10 @@
+[
+  {
+    "name": "earth",
+    "img": "./img/earth300px.png"
+  },
+  {
+    "name": "mercury",
+    "img": "./img/mercury300px.png"
+  }
+]
