@@ -13,11 +13,16 @@
         <div class="main-btn-box">
           <button class="btn-main">PLANETS</button>
         </div>
+
         <div class="planets-btn-box">
-          <button class="btn" onclick="planetImg('mercury')">Mercury</button>
-          <button class="btn">Venus</button>
-          <button class="btn">Earth</button>
-          <button class="btn">Mars</button>
+          <button type="button" class="btn" onclick="planetImg('mercury')">
+            Mercury
+          </button>
+          <button class="btn" onclick="planetImg('venus')">Venus</button>
+          <button type="button" class="btn" onclick="planetImg('earth')">
+            Earth
+          </button>
+          <button type="button" class="btn" onclick="planetImg('mars')">Mars</button>
           <button class="btn">Jupter</button>
           <button class="btn">Saturn</button>
           <button class="btn">Uranos</button>
@@ -28,11 +33,16 @@
       <main class="principal">
         <div class="planets-section">
           <div class="planet-frame">
-            <img class="planet-main-img" src="./img/earth300px.png" alt="planet image" />
+            <img
+              class="planet-main-img"
+              src="./img/earth300px.png"
+              alt="planet image"
+            />
           </div>
         </div>
 
         <section class="planet-bio-section">
+          <!--Planet Bio -->
           <div class="planet-bio">
             <h1 class="planet-bio-title">EARTH</h1>
             <p class="planet-bio-paragraph">
@@ -42,6 +52,8 @@
               necessitatibus similique asperiores, quasi esse excepturi!
             </p>
             <p class="planet-bio-src">Source:<a href="#">Wikipedia</a></p>
+
+            <!-- BUTTONS SECTION -->
             <div class="planet-bio-btn-section">
               <button class="planet-bio-btn">
                 <div class="bio-btn-num">01</div>
@@ -57,29 +69,38 @@
               </button>
             </div>
           </div>
+          <!-- BUTTONS SECTION END-->
         </section>
+        <!--Planet Bio -->
       </main>
+
+      <!--footer-->
       <section class="footer-info-section">
         <div class="footer-info">
           <div class="footer-info-box">
             <div class="info-box-title">ROTATION TIME</div>
             <div class="info-box-data">0.99 DAYS</div>
           </div>
+
           <div class="footer-info-box">
             <div class="info-box-title">REVOLUION TIME</div>
             <div class="info-box-data">365.26 DAYS</div>
           </div>
+
           <div class="footer-info-box">
             <div class="info-box-title">RADIUS</div>
             <div class="info-box-data">6,371 KM</div>
           </div>
+
           <div class="footer-info-box">
             <div class="info-box-title">AVERAGE TEMP</div>
             <div class="info-box-data">16°C</div>
           </div>
         </div>
       </section>
+      <!--footer end-->
     </div>
+
     <script src="script.js"></script>
   </body>
 </html>
